@@ -1,0 +1,23 @@
+public class Conversation {
+    private String question;
+    private String answer;
+
+    public Conversation() {
+        this.question = "default question";
+        this.answer = "default answer";
+    }
+
+    public Conversation(String question, String answer) {
+        this.question = question;
+        this.answer = answer;
+    }
+
+    public String getQuestion() {
+        return question;
+    }
+
+    public String getAnswer() {
+        return answer;
+    }
+}
+
